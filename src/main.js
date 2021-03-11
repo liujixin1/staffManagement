@@ -16,8 +16,8 @@ import '@/permission' // permission control
 import vueEsign from 'vue-esign'
 Vue.use(vueEsign)
 Vue.use(Print)
-    axios.defaults.baseURL = 'http://hrapi.mhsys.cn/index.php' //正式接口
-// axios.defaults.baseURL = 'http://employee.sys.api.hihill.cn/index.php/' //测试接口
+    // axios.defaults.baseURL = 'http://hrapi.mhsys.cn/index.php' //正式接口
+axios.defaults.baseURL = 'http://employee.sys.api.hihill.cn/index.php/' //测试接口
 Vue.prototype.$axios = axios;
 /**
  * If you don't want to use mock-server

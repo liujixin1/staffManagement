@@ -18,8 +18,8 @@ function endLoading() { //使用Element loading-close 方法
 }
 // create an axios instance
 const service = axios.create({
-    baseURL: 'http://hrapi.mhsys.cn/index.php', // 正式接口
-    // baseURL: 'http://employee.sys.api.hihill.cn/index.php/', // 测试接口
+    // baseURL: 'http://hrapi.mhsys.cn/index.php', // 正式接口
+    baseURL: 'http://employee.sys.api.hihill.cn/index.php/', // 测试接口
     // baseURL: process.env.VUE_APP_BASE_API, // url = base url + request url
     // withCredentials: true, // send cookies when cross-domain requests
     timeout: 5000 // request timeout
